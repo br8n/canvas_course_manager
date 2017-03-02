@@ -54,7 +54,9 @@
             <!-- /.navbar-collapse -->
         </div>
     </nav>
-
+<div>
+Hello 1
+</div>
     <div ng-include src="'assets-lti/views/course.html'" style="margin-top:60px"></div>
     <script src="vendor/jquery/jquery-1.11.0.min.js"></script>
     <script src="vendor/jquery/jquery-ui-1.11.2/jquery-ui.min.js"></script>
@@ -85,6 +87,9 @@
     <div class="modal fade" id="addUserModal" tabindex="-1" role="dialog" aria-labelledby="addUserLabel" aria-hidden="true" ng-controller="addUserController">
       <div class="modal-dialog modal-lg">
         <div ng-include src="'assets-lti/views/friends.html'"></div>
+      </div>
+      <div>
+      Hello 2
       </div>
     </div>
 
